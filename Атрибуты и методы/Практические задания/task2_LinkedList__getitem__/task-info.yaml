@@ -17,7 +17,7 @@ files:
       offset: 183
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'self.head: Optional[Node] = None'
   - offset: 532
     length: 56
@@ -27,21 +27,21 @@ files:
       offset: 532
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: self.head = self.list_nodes[0]
-  - offset: 1346
-    length: 41
+  - offset: 1363
+    length: 16
     placeholder_text: '# TODO проверка правильности типа индекса'
     initial_state:
       length: 41
       offset: 1346
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       if not isinstance(index, int):
                   raise TypeError
-  - offset: 1412
+  - offset: 1397
     length: 41
     placeholder_text: '...  # TODO чему равен начальный элемент?'
     initial_state:
@@ -49,9 +49,9 @@ files:
       offset: 1412
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: self.head
-  - offset: 1684
+  - offset: 1686
     length: 49
     placeholder_text: '...  # TODO метод должен возвращать значение узла'
     initial_state:
@@ -59,7 +59,7 @@ files:
       offset: 1684
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       node = self.step_by_step_on_nodes(index)
               return node.value
@@ -160,5 +160,8 @@ files:
             self.is_valid(next_)
             self.next = next_
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 11 Sep 2021 07:52:06 UTC
 record: -1
