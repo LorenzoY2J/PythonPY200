@@ -69,9 +69,21 @@ class LinkedList:
     def __str__(self) -> str:
         return f"{self.to_list()}"
 
-    # TODO реализовать getter и setter для head
+    @property
+    def prop(self):
+        return self.head
 
-    # TODO реализовать getter и setter для tail
+    @prop.setter
+    def prop(self, value):
+        self.head = value
+
+    @property
+    def prop(self):
+        return self.tail
+
+    @prop.setter
+    def prop(self, value):
+        self.tail = value
 
 
 if __name__ == "__main__":

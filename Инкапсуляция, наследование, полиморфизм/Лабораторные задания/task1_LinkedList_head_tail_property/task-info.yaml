@@ -10,24 +10,24 @@ files:
   visible: true
   placeholders:
   - offset: 2130
-    length: 43
+    length: 125
     placeholder_text: '# TODO реализовать getter и setter для head'
     initial_state:
       length: 43
       offset: 2130
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO'
-  - offset: 2179
-    length: 43
+  - offset: 2261
+    length: 125
     placeholder_text: '# TODO реализовать getter и setter для tail'
     initial_state:
       length: 43
       offset: 2179
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO'
   text: |
     from typing import Any, Iterable, Optional
@@ -153,5 +153,8 @@ files:
             self.is_valid(next_)
             self._next = next_
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 18 Sep 2021 09:22:39 UTC
 record: -1
