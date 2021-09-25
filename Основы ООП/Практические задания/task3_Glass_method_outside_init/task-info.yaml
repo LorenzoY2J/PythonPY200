@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 122
-    length: 240
+    length: 324
     placeholder_text: |-
       #  TODO заменить на метод
               if not isinstance(capacity_volume, (int, float)):
@@ -17,12 +17,12 @@ files:
       offset: 122
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       self.capacity_volume = None
               self.init_capacity_volume(capacity_volume)
-  - offset: 587
-    length: 77
+  - offset: 639
+    length: 69
     placeholder_text: '#  TODO создать метод, который будет инициализировать атрибут
       capacity_volume'
     initial_state:
@@ -30,7 +30,7 @@ files:
       offset: 587
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
           def init_capacity_volume(self, capacity_volume: [int, float]):
               if not isinstance(capacity_volume, (int, float)):
@@ -38,8 +38,8 @@ files:
               if not capacity_volume > 0:
                   raise ValueError
               self.capacity_volume = capacity_volume  # объем стакана
-  - offset: 698
-    length: 121
+  - offset: 733
+    length: 105
     placeholder_text: |-
       #  TODO самостоятельно создайте экземпляр класса Glass и выведите  его атрибуты capacity_volume и occupied_volume
           ...
@@ -47,8 +47,8 @@ files:
       length: 121
       offset: 698
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |
       glass = Glass(200, 100)  # экземпляр класса
           print(glass.capacity_volume, glass.occupied_volume)
@@ -79,6 +79,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  time: Sat, 25 Sep 2021 09:05:48 UTC
 record: -1
 post_submission_on_open: true

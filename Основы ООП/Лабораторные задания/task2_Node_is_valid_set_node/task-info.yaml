@@ -4,20 +4,20 @@ files:
   visible: true
   placeholders:
   - offset: 399
-    length: 68
+    length: 45
     placeholder_text: '# TODO установить значение следующего узла с помощью метода
       set_next'
     initial_state:
       length: 68
       offset: 399
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       self.next = None
               self.set_next(next_)
-  - offset: 602
-    length: 64
+  - offset: 579
+    length: 72
     placeholder_text: |-
       # TODO метод проверки корректности связываемого узла
               ...
@@ -25,13 +25,13 @@ files:
       length: 64
       offset: 602
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       if not isinstance(node, (type(None), Node)):
                   raise TypeError
-  - offset: 740
-    length: 98
+  - offset: 725
+    length: 46
     placeholder_text: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
@@ -39,13 +39,13 @@ files:
       length: 98
       offset: 740
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       self.is_valid(next_)
               self.next = next_
-  - offset: 872
-    length: 14
+  - offset: 805
+    length: 143
     placeholder_text: |-
       # TODO
           ...
@@ -53,8 +53,8 @@ files:
       length: 14
       offset: 872
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       first_node = Node("first_node")
           second_node = Node("second_node")
@@ -127,5 +127,8 @@ files:
 - name: tests/__init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 25 Sep 2021 09:09:24 UTC
 record: -1

@@ -10,41 +10,41 @@ files:
   visible: true
   placeholders:
   - offset: 371
-    length: 29
+    length: 44
     placeholder_text: '...  # TODO добавить атрибуты'
     initial_state:
       length: 29
       offset: 371
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       self.value = value
               self.next = next_
-  - offset: 442
-    length: 33
+  - offset: 457
+    length: 17
     placeholder_text: '...  # TODO вернуть значение узла'
     initial_state:
       length: 33
       offset: 442
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: return self.value
-  - offset: 481
-    length: 30
+  - offset: 480
+    length: 64
     placeholder_text: '# TODO добавить метод get_next'
     initial_state:
       length: 30
       offset: 481
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       def get_next(self) -> Optional["Node"]:
               return self.next
-  - offset: 597
-    length: 93
+  - offset: 630
+    length: 63
     placeholder_text: '...  # TODO c помощью методов распечатать значение первого
       узла и следующий узел второго узла'
     initial_state:
@@ -52,7 +52,7 @@ files:
       offset: 597
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       print(first_node.get_value())
           print(second_node.get_next())
@@ -86,5 +86,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 25 Sep 2021 09:07:17 UTC
 record: -1
