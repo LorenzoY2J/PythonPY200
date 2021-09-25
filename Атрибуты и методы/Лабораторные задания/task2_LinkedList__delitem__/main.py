@@ -95,17 +95,21 @@ class LinkedList:
     def __str__(self) -> str:
         return f"{self.to_list()}"
 
+#
+# if __name__ == '__main__':
+#     list_ = [1, 2, 3]
+#     linked_list = LinkedList(list_)
+#     # print(linked_list)
+#     #
+#     # del linked_list[1]
+#     # print(linked_list)
+#     #
+#     # del linked_list[1]
+#     # print(linked_list)
+#     #
+#     # del linked_list[0]
+#     # print(linked_list)
 
-if __name__ == '__main__':
-    list_ = [1, 2, 3]
-    linked_list = LinkedList(list_)
-    print(linked_list)
-
-    del linked_list[1]
-    print(linked_list)
-
-    del linked_list[1]
-    print(linked_list)
-
-    del linked_list[0]
-    print(linked_list)
+print([1, 2, 3])
+print(2)
+print(100)

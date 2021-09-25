@@ -16,7 +16,7 @@ files:
       offset: 470
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       for i in range(len(self.list_nodes) - 1):
                   current_node = self.list_nodes[i]
@@ -32,7 +32,7 @@ files:
       offset: 522
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       @staticmethod
           def linked_nodes(left_node: Node, right_node: Optional[Node] = None) -> None:
@@ -111,5 +111,8 @@ files:
             self.is_valid(next_)
             self.next = next_
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 25 Sep 2021 09:14:04 UTC
 record: -1
