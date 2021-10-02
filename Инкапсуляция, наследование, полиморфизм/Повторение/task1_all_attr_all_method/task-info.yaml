@@ -16,6 +16,10 @@ files:
 status: Failed
 feedback:
   message: Incorrect
-  time: Sat, 25 Sep 2021 09:18:38 UTC
-  actual: <no output>
+  time: Sat, 25 Sep 2021 09:25:08 UTC
+  actual: |
+    Вызван setter
+    Вызван setter
+    Вызван setter
+    Node(1, Node(2)) Node(2, None)
 record: -1

@@ -91,5 +91,10 @@ files:
         read_data = driver.read()
         print(read_data)
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sat, 25 Sep 2021 09:22:19 UTC
+  actual: |
+    Введите название текстового файла: (.txt)SimpleFileDriver("hhl.txt")
 record: -1
