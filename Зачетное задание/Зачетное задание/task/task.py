@@ -15,8 +15,6 @@ class LinkedList(MutableSequence):
             for value in data:
                 self.append(value)
 
-    # def __init__(self):
-    #     self._inner_list = list()
     def append(self, value: Any):
         """ Добавление элемента в конец связного списка. """
         append_node = Node(value)
@@ -140,15 +138,11 @@ class DoubleLinkedList(LinkedList):
 if __name__ == "__main__":
     ll = DoubleLinkedList([1, 2, 3, 4, 5])
 
-    #    ll.__len__()
-
     print(ll)
-    ll.append(7)
-    print(ll)
-    ll.append(8)
+    ll.append(6)
     print(ll)
 
-    ll.insert(2, 8)
+    ll.insert(2, 7)
     print(ll)
     ll.__delitem__(3)
     print(ll)
